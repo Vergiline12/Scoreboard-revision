@@ -62,16 +62,16 @@ board:
     4:
       interval: 80
       lines:
-        - '&4♡ &f&o%player_health_rounded%/%player_max_health_rounded%'
-        - '%player_ping% &7ms latency'
+        - ''
+        - ''
     5:
       interval: 80
       lines:
-        - ''
+        - '&cPing:'
     6:
-      interval: 80
+      interval: 5
       lines:
-        - '&cServer &4&l>'
+        - '&player_ping% ms'
     7:
       interval: 80
       lines:
@@ -80,12 +80,11 @@ board:
     8:
       interval: 80
       lines:
-        - '%server_ram_used%mb/%server_ram_total%mb &7ram usage'
-        - '%server_tps_1% &7ticks per second'
+        - '&cUptime:'  
     9:
-      interval: 80
+      interval: 20
       lines:
-        - ''
+        - '&server_uptime&'
     10:
       interval: 80
       lines:
